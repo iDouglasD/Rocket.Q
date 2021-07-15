@@ -15,10 +15,11 @@ route.get("/create-pass", (req, res) =>
   })
 );
 
-route.get("/room/:room", RoomController.open);
-
-// Formato que o formulário dentro da modal tem que passar a informação
-route.post("/question/:room/:question/:action", QuestionController.index);
 route.post("/create-room", RoomController.create);
+route.get("/room/:room", RoomController.open);
+route.post("/enterroom", RoomController.enter);
+
+route.post("/question/create/:room", QuestionController.create);
+route.post("/question/:room/:question/:action", QuestionController.index);
 
 module.exports = route;
