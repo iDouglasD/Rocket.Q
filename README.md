@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="Rocket.Q" src=".github/montagem-readme.png" width="80%">
+  <img alt="Rocket.Q" src=".github/montagem-readme.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
